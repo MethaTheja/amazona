@@ -4,6 +4,7 @@ import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import { LinkContainer } from 'react-router-bootstrap';
+
 function App() {
   return (
     <BrowserRouter>
@@ -18,7 +19,7 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-4">
             <Routes>
               <Route path="/" element={<HomeScreen></HomeScreen>}></Route>
               <Route
