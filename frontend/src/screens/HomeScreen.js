@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 
@@ -60,7 +60,6 @@ function HomeScreen() {
                 <Product product={product}></Product>
               </Col>
             ))}
-            <Button></Button>
           </Row>
         )}
       </div>
