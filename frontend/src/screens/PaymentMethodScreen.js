@@ -13,7 +13,7 @@ export default function PaymentMethodScreen() {
     cart: { shippingAddress, paymentMethod },
   } = state;
   const [paymentMethodName, setPaymentMethod] = useState(
-    paymentMethod || 'Paypal'
+    paymentMethod || 'PayPal'
   );
   useEffect(() => {
     if (!shippingAddress.address) {
